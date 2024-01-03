@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    cin>>a;
+    
+    int c= a*10;
+    
+    if(a>5000){
+        cout<<c<<endl;
+        cout<<"you can give us 10x more cauze you are rich";
+    }else{
+        cout<<a;
+        cout<<"thankyouforshoping ";
+    }
+    return 0;
+}
